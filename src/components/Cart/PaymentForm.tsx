@@ -36,11 +36,10 @@ const PaymentForm = ({ total, onBack, onSuccess }: Props) => {
                 onChange={handleChange}
                 value={form.nome} required 
             />
-
             <S.Row>
                 <div>
                     <S.Label style={{ fontSize: '18px' }}>Número do cartão</S.Label>
-                    <S.Input
+                    <S.Input style={{ width:'228px'}}
                         name="numero" type="number"
                         onChange={handleChange}
                         value={form.numero} required
@@ -48,17 +47,17 @@ const PaymentForm = ({ total, onBack, onSuccess }: Props) => {
                 </div>
                 <div>
                     <S.Label style={{ fontSize: '18px' }}>CVV</S.Label>
-                    <S.Input
+                    <S.Input style={{ width:'87px'}}
                         name="cvv" type="number"
                         onChange={handleChange}
-                        value={form.cvv} required
+                        value={form.cvv} required 
                     />
-                </div>
+                </div> 
             </S.Row>
             <S.Row>
                 <div>
                     <S.Label style={{ fontSize: '18px' }}>Mês de vencimento</S.Label>
-                    <S.Input
+                    <S.Input style={{ width:'155px'}}
                         name="mes"
                         onChange={handleChange}
                         value={form.mes} required 
@@ -66,7 +65,7 @@ const PaymentForm = ({ total, onBack, onSuccess }: Props) => {
                 </div>
                 <div>
                     <S.Label style={{ fontSize: '18px' }}>Ano de vencimento</S.Label>
-                    <S.Input
+                    <S.Input style={{ width:'155px'}}
                         name="ano"
                         onChange={handleChange}
                         value={form.ano} required

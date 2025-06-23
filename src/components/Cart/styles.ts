@@ -52,7 +52,7 @@ export const Overlay = styled.div`
 
 export const Sidebar = styled.aside`
   background-color: #e66767;
-  color: #fff;
+  color: #fff5f5;
   width: 400px;
   height: 100vh;
   padding: 16px;
@@ -83,7 +83,7 @@ ul {
     border-radius: 8px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0;
     margin-bottom: 16px;
     position: relative; 
 
@@ -95,7 +95,7 @@ ul {
     }
 
     div {
-      flex: 1;
+      
 
       h3 {
         font-weight: bold;
@@ -104,6 +104,7 @@ ul {
 
       span {
         font-size: 14px;
+        color: #FFF8F2;
       }
     }
 
@@ -154,15 +155,14 @@ export const Label = styled.label`
   font-weight: bold;
   margin-bottom: 4px;
   display: block;
-  color: #fff;
+  color: #FFF8F2;
 `
 export const Row = styled.div`
   display: flex;
-  gap: 8px;
+  gap: 0;
   margin-bottom: 16px;
 
   div {
-    flex: 1;
     display: flex;
     flex-direction: column;
   }

@@ -48,7 +48,7 @@ export const Form = styled.form`
 
     export const Row = styled.div`
     display: flex;
-    gap: 8px;
+    gap: 30px;
 
     > div {
         flex: 1;
